@@ -1,0 +1,46 @@
+
+@import url("./header.css");
+@import url("./carta.css");
+@import url("./banner.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+    background-color: rgb(233, 220, 206);
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+ul{
+    list-style-type: none;
+}
+.footerclass{
+    background-color: rgb(179, 155, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.arrow-top{
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    background-color: rgba(53, 62, 69, 0.298);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

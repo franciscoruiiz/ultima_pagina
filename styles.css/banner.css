@@ -1,0 +1,18 @@
+.banner{
+    background-image: url("./imagen-horizontal.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 470px;
+    color: #FFF;
+    
+}
+
+
+@media (max-width: 890px) {
+    .banner{
+        height: 300px;
+    }
+
+}

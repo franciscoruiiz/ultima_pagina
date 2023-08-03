@@ -1,0 +1,57 @@
+header img.imagenLogoHeader {
+    width: 70px;
+    padding-left: 10px;
+}
+
+.header {
+    background-color: rgb(179, 155, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(179, 155, 125, 0.765) ;
+}
+
+.header .iconos {
+    display: flex;
+    gap: 90px;
+}
+
+.menu {
+    display: none;
+}
+
+.iconos a:hover {
+    color: rgb(245, 240, 240);
+    border-bottom: 2px rgb(245, 240, 240) double;
+}
+.redes{
+    padding-right: 15px;
+    
+}
+.redes a:hover{
+    color: rgb(245, 240, 240);
+    border-bottom: 2px rgb(245, 240, 240) double;
+}
+
+
+
+@media (max-width: 890px) {
+
+
+    .header .iconos {
+        display: none;
+    }
+
+    .menu {
+        display: inline;
+    }
+
+    .banner{
+        height: 100px;
+    }
+
+}
